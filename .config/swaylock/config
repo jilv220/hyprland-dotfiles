@@ -1,0 +1,24 @@
+ignore-empty-password
+disable-caps-lock-text
+font=Cantarelle Regular
+#font-size=9
+
+image=/usr/share/wallpapers/cachyos-wallpapers/Liquid.png
+effect-blur=7x5
+effect-vignette=0.5:0.5
+indicator
+indicator-radius=120
+indicator-thickness=20
+clock
+timestr=%I:%M %p
+datestr=%d %B
+ring-color=1e1e2e
+key-hl-color=f6e3e0
+line-color=575762
+separator-color=f6e3e0
+inside-color=1e1e2e
+bs-hl-color=f6e3e0
+layout-bg-color=3B4252
+layout-border-color=1e1e2e
+layout-text-color=f6e3e0
+text-color=f6e3e0
