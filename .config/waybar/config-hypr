@@ -12,11 +12,11 @@
     "modules-left": [
         // "custom/rofi",
         "custom/power",
-        "wlr/workspaces",
+        "wlr/workspaces"
         //"temperature",
         //"idle_inhibitor",
         //"mpd"
-        "custom/media"
+        // "custom/media"
     ],
     // "modules-center": [
     //     "hyprland/window"

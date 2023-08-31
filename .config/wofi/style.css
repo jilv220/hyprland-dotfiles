@@ -3,24 +3,24 @@
 }
 
 window {
-    background-color: #1e1e2e;
+    background-color: #282a36;
 }
 
 #input {
     margin: 5px;
     border-radius: 8px;
     background-color: #3B4252;
-    color: white;
+    color: #f8f8f2;
 }
 
 #inner-box {
-    background-color: #1e1e2e;
+    background-color: #282a36;
 }
 
 #outer-box {
     margin: 2px;
     padding: 10px;
-    background-color: #1e1e2e;
+    background-color: #282a36;
 }
 
 #scroll {
@@ -29,7 +29,7 @@ window {
 
 #text {
     padding: 4px;
-    color: #f6e3e0;
+    color: #f8f8f2;
 }
 
 /* #entry:nth-child(even){
@@ -37,7 +37,7 @@ window {
 } */
 
 #entry:selected {
-    background-color: #64646f;
+    background-color: #44475a;
 }
 
 #text:selected {

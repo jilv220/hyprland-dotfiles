@@ -5,8 +5,9 @@ window {
 	background-color: rgba(12, 12, 12, 0.9);
 }
 button {
-  color: #FFFFFF;
-	background-color: #1E1E2E;
+  color: #f8f8f2;
+	background-color: #282a36;
+	border-color: #f8f8f2;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 8px;
@@ -16,7 +17,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #64646f;
+	background-color: #44475a;
 	outline-style: none;
 }
 

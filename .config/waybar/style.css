@@ -23,7 +23,7 @@
     /*background: @bg;*/
     background-color: rgba(0, 0, 0, 0);
     /*color: @light;*/
-    color: #ffffff;
+    color: #f8f8f2;
     transition-property: background-color;
     transition-duration: 0.5s;
     /*border-top: 8px transparent;*/
@@ -33,12 +33,12 @@
 }
 
 #tooptip {
-  background: #1e1e2e;
-  color: #f6e3e0;
+  background: #282a36;
+  color: #f8f8f2;
   border-radius: 21px;
   border-width: 1px;
   border-style: solid;
-  border-color: #11111b;
+  border-color: #282a36;
 }
 
 window#waybar.hidden {
@@ -53,13 +53,13 @@ window#waybar.hidden {
   margin-bottom: 3px;
   padding-left: 3px;
   padding-right: 3px;
-  color: #f6e3e0;
+  color: #f8f8f2;
   animation: gradient_f 20s ease-in infinite;
   transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
-  background: #575762;
+  background: #44475a;
   margin-left: 3px;
   padding-left: 8px;
   padding-right: 8px;
@@ -120,8 +120,8 @@ window#waybar.hidden {
   padding: 0px 15px;
   /* color: #bf616a; */
   border-radius: 20px;
-  color: #f6e3e0;
-  background: #1e1e2e;
+  color: #f8f8f2;
+  background: #282a36;
   opacity: 0.96;
 }
 
@@ -129,8 +129,8 @@ window#waybar.hidden {
 #workspaces {
   border-radius: 20px;
   padding: 0px 10px;
-  background-color: #1e1e2e;
-  color: #f6e3e0;
+  background-color: #282a36;
+  color: #f8f8f2;
 }
 
 #cpu {
