@@ -12,7 +12,7 @@
     "modules-left": [
         // "custom/rofi",
         "custom/power",
-        "wlr/workspaces"
+        "hyprland/workspaces"
         //"temperature",
         //"idle_inhibitor",
         //"mpd"
@@ -196,6 +196,7 @@
     },
     "clock#date": {
         "format": "{:%H:%M   %e %b}", // Icon: calendar-alt
+        "timezone": "America/Vancouver",
         //"format": "{:%I:%M %p  %A %b %d}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "today-format": "<b>{}</b>"
