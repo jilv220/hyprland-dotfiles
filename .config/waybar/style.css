@@ -81,9 +81,21 @@ window#waybar.hidden {
 
 #window {
   /* border-radius: 20px; */
-  /* padding-left: 10px; */
-  /* padding-right: 10px; */
+  /* padding-left: 10px;
+  padding-right: 10px; */
   color: #64727d;
+}
+
+/*
+  Have to work around like this
+  https://github.com/Alexays/Waybar/issues/1448 
+*/
+#waybar.empty #window {
+  background: none;
+}
+
+#waybar.fullscreen #window {
+  background-color: #44475a;
 }
 
 /* Each module */
@@ -295,3 +307,5 @@ label:focus {
 #keyboard-state > label.locked {
   background: rgba(0, 0, 0, 0.2);
 }
+
+

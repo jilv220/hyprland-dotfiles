@@ -4,7 +4,6 @@
     // -------------------------------------------------------------------------
     "layer": "top",
     "position": "top",
-    "height": 24,
     "margin-left": 10,
     "margin-bottom": 0,
     "margin-right": 10,
@@ -12,15 +11,13 @@
     "modules-left": [
         // "custom/rofi",
         "custom/power",
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "hyprland/window"
         //"temperature",
         //"idle_inhibitor",
         //"mpd"
         // "custom/media"
     ],
-    // "modules-center": [
-    //     "hyprland/window"
-    // ],
     "modules-right": [
         // "custom/storage",
         // "memory",
