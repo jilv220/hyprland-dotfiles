@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-yay -S xdg-desktop-portal xdg-desktop-portal-hyprland-git \
+yay -S xdg-desktop-portal xdg-desktop-portal-hyprland \
 hyprland swaylock-effects-git alacritty dunst \
-waybar-hyprland wlogout rofi --needed
+waybar-hyprland wlogout rofi thunar{,-archive-plugin} \ --needed
 
 echo 'Install config files...'
 cp -r .config/ ~
