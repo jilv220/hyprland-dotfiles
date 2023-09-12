@@ -2,7 +2,8 @@
 
 yay -S xdg-desktop-portal xdg-desktop-portal-hyprland \
 hyprland swaylock-effects-git alacritty dunst \
-waybar-hyprland wlogout rofi thunar{,-archive-plugin} \ --needed
+waybar-hyprland wlogout rofi thunar{,-archive-plugin} --needed
+|| { echo 'yay install failed, abort...' ; exit 1; }
 
 echo 'Install config files...'
 cp -r .config/ ~
